@@ -95,7 +95,7 @@ trait PlaySpec {
       target = target,
       version = version,
       headers = Headers(hds: _*),
-      attrs = attrs + (RequestAttrKey.Id -> id)
+      attrs = attrs.updated[Long](RequestAttrKey.Id, id)
     )
   }
 }

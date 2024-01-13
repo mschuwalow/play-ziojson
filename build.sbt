@@ -11,7 +11,7 @@ addCommandAlias("fmtCheck", "all scalafmtSbtCheck scalafmtCheck test:scalafmtChe
 inThisBuild(
   List(
     organization      := "com.schuwalow",
-    homepage := Some(url("https://github.com/mschuwalow/play-ziojson")),
+    homepage          := Some(url("https://github.com/mschuwalow/play-ziojson")),
     developers        := List(
       Developer(
         "mschuwalow",
@@ -20,7 +20,7 @@ inThisBuild(
         url("https://github.com/mschuwalow")
       )
     ),
-    licenses := List("Apache-2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0")),
+    licenses          := List("Apache-2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0")),
     semanticdbEnabled := true,
     semanticdbVersion := scalafixSemanticdb.revision,
     scalaVersion      := Scala213
