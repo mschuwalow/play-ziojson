@@ -77,7 +77,7 @@ trait PlaySpec {
   ): RequestHeader = {
     val remoteAddress                                        = "127.0.0.1"
     val version                                              = "HTTP/1.1"
-    val id                                                   = 666
+    val id                                                   = 666L
     val secure: Boolean                                      = false
     val clientCertificateChain: Option[Seq[X509Certificate]] = None
     val attrs: TypedMap                                      = TypedMap.empty
