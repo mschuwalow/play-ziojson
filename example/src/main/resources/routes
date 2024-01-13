@@ -1,0 +1,2 @@
+GET  / controllers.FooController.getFoo()
+POST / controllers.FooController.postFoo()

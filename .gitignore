@@ -1,0 +1,14 @@
+project/zecret
+project/secrets.tar.xz
+project/project
+target
+test-output/
+.sbtopts
+project/.sbt
+test-output/
+.bloop
+.metals
+.idea
+.bsp
+.bloop
+.sbt

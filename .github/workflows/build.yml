@@ -1,0 +1,22 @@
+name: Build
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: build
+    timeout-minutes: 15
+    steps:
+    - uses: actions/checkout@v3.0.2
+      with:
+        fetch-depth: 0
+
+    - uses: olafurpg/setup-scala@v13
+      with:
+        java-version: openjdk@1.17.0
+
+    - name: Lint code
+      run: |
+        sbt 'check'
+
+    - name: Run tests
+      run: |
+        sbt '+test'
