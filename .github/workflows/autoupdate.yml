@@ -1,4 +1,5 @@
 name: Autoupdate PRs
+
 on:
   push: {}
   pull_request_target:
@@ -7,12 +8,13 @@ on:
 
 jobs:
   autoupdate:
-    name: autoupdate
     runs-on: ubuntu-22.04
+    permissions:
+      pull-requests: write
     steps:
       - uses: docker://chinthakagodawita/autoupdate-action:v1
         env:
-          GITHUB_TOKEN: '${{ secrets.GH_TOKEN }}'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_FILTER: labelled
           PR_LABELS: autoupdate
           MERGE_CONFLICT_ACTION: ignore
