@@ -13,6 +13,6 @@ jobs:
     permissions:
       contents: write
     steps:
-    - uses: alexwilson/enable-github-automerge-action@1.0.0
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+    - run: gh pr merge --merge --auto ${{ github.event.pull_request.number }}
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
