@@ -1,10 +1,7 @@
 name: Enable Automerge
 
 on:
-  pull_request_target:
-    types:
-      - reopened
-      - labeled
+  pull_request_target: {}
 
 jobs:
   enable-auto-merge:
