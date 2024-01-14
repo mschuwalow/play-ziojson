@@ -1,5 +1,7 @@
 # play-ziojson
 
+foo
+
 Adds support for zio-json encoding/decoding to play.
 
 ![CI Badge](https://github.com/mschuwalow/play-ziojson/actions/workflows/ci.yml/badge.svg?branch=main) [![Sonatype Releases](https://img.shields.io/nexus/r/https/oss.sonatype.org/com.schuwalow/play-ziojson_2.13.svg?label=Sonatype%20Release)](https://oss.sonatype.org/content/repositories/releases/com/schuwalow/play-ziojson_2.13/) [![Sonatype Snapshots](https://img.shields.io/nexus/s/https/oss.sonatype.org/com.schuwalow/play-ziojson_2.13.svg?label=Sonatype%20Snapshot)](https://oss.sonatype.org/content/repositories/snapshots/com/schuwalow/play-ziojson_2.13/) [![play-ziojson](https://img.shields.io/github/stars/mschuwalow/play-ziojson?style=social)](https://github.com/mschuwalow/play-ziojson)
