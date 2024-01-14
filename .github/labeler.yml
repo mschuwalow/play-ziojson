@@ -2,3 +2,4 @@ version: 1
 labels:
 - label: "automerge"
   branch: "^update/*"
+  author: "mschuwalow"
