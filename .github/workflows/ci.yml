@@ -3,7 +3,7 @@ on:
   pull_request: {}
   push:
     branches:
-      - 'series/2.x'
+      - 'main'
 jobs:
   build:
     runs-on: ubuntu-22.04
