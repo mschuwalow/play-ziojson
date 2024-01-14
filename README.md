@@ -9,7 +9,7 @@ Adds support for zio-json encoding/decoding to play.
 Add the dependency to your build.sbt:
 
 ```scala
-libraryDependencies += "com.schuwalow" %% "play-ziojson" % "0.0.1"
+libraryDependencies += "com.schuwalow" %% "play-ziojson" % "0.1.0"
 ```
 
 ## Example controller
