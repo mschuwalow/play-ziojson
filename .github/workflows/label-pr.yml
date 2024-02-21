@@ -25,7 +25,7 @@ jobs:
   enable-auto-merge:
     needs: update-pr-labels
     runs-on: ubuntu-latest
-    if: contains(fromJSON(needs.update-pr-labels.labels), 'automerge')
+    if: contains(fromJSON(needs.update-pr-labels.outputs.labels), 'automerge')
     permissions:
       contents: write
     steps:
