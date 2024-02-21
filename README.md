@@ -56,4 +56,4 @@ class FooController @Inject() (val controllerComponents: ControllerComponents)(i
 
 ```
 
-## License[License](LICENSE)
+## [License](LICENSE)
