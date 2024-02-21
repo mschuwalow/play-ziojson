@@ -16,7 +16,7 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: srvaroa/labeler@v1
-      - run: gh pr view --json labels > pr-labels.json
+      - run: gh pr view --json labels $PR_URL > pr-labels.json
       - id: get-pr-labels
         uses: sergeysova/jq-action@v2
         with:
