@@ -46,9 +46,3 @@ object BuildHelper {
     )
 
 }
-
-// import sbt._
-// import Keys._
-// import sbtbuildinfo._
-// import BuildInfoKeys._
-// import scalafix.sbt.ScalafixPlugin.autoImport._
