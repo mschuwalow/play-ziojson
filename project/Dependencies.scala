@@ -3,7 +3,7 @@ import sbt._
 object Dependencies {
 
   object Versions {
-    val play    = "3.0.7"
+    val play    = "3.0.8"
     val zio     = "2.1.19"
     val zioJson = "0.7.44"
   }
