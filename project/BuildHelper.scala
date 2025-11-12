@@ -4,7 +4,7 @@ import scalafix.sbt.ScalafixPlugin.autoImport._
 
 object BuildHelper {
   final val Scala213 = "2.13.17"
-  final val Scala3   = "3.7.3"
+  final val Scala3   = "3.7.4"
 
   def extraCompilerOptions = Seq(
     scalacOptions ++= (CrossVersion.partialVersion(scalaVersion.value) match {
