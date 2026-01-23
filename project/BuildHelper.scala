@@ -3,7 +3,7 @@ import Keys._
 import scalafix.sbt.ScalafixPlugin.autoImport._
 
 object BuildHelper {
-  final val Scala213 = "2.13.18"
+  final val Scala213 = "3.8.1"
   final val Scala3   = "3.7.4"
 
   def extraCompilerOptions = Seq(
