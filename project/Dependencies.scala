@@ -5,7 +5,7 @@ object Dependencies {
   object Versions {
     val play    = "3.0.10"
     val zio     = "2.1.24"
-    val zioJson = "0.9.0"
+    val zioJson = "0.9.1"
   }
 
   import Versions._
